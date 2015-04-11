@@ -27,6 +27,8 @@ twodays$Date <- as.Date(as.character(twodays$Date),"%d/%m/%Y")
 # His plots are also bigger (504x504) than the ones we have to make (480x480)
 # For that reason, there might be minor differences between his plots and ours
 png(file="plot4.png", bg="transparent")
+# this command was used instead for generating the non-transparent plot
+# png(file="plot4_non_transparent.png") 
 par(mfrow = c(2, 2))
 with(twodays,{
 # plot1

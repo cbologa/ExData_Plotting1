@@ -1,3 +1,22 @@
+## Comments for reviewers
+
+1. The 4 plots posted by Roger in the project 1 assignment are transparent, 
+and so are the ones in his repository (at https://github.com/rdpeng/ExData_Plotting1/tree/master/figure ). 
+For that reason, I made my plots transparent, but in case they do not display 
+well on your computer, I also created four identical non-transparent ones 
+that will probably display better.
+2. The plots posted by Roger are also larger (504x504) than the ones we are 
+required to submit (480x480). That means that we cannot create identical plots 
+with the ones he made, and there will be some be minor differences between his 
+plots and the ones we make. The most visible one is probably the size of the 
+legend in the lower left graph in plot 4. While that could in principle be 
+scaled to a smaller size, it would require changing the size of fonts and 
+other elements in all 4 graphs, which I do not believe it was intended for 
+us to do in this assignment.
+
+
+And here is the assignment we had to complete:
+
 ## Introduction
 
 This assignment uses data from

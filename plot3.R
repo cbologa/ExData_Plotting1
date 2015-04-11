@@ -27,6 +27,8 @@ twodays$Date <- as.Date(as.character(twodays$Date),"%d/%m/%Y")
 # His plots are also bigger (504x504) than the ones we have to make (480x480)
 # For that reason, there might be minor differences between his plots and ours
 png(file="plot3.png", bg="transparent")
+# this command was used instead for generating the non-transparent plot
+# png(file="plot3_non_transparent.png") 
 with(twodays,{
    plot(range(Time),range(Sub_metering_1,Sub_metering_2,Sub_metering_3),
         type="n",xlab="",ylab="Energy sub metering")
