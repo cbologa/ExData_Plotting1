@@ -24,6 +24,8 @@ twodays$Date <- as.Date(as.character(twodays$Date),"%d/%m/%Y")
 
 # Creates a composite plot of energy usage in the plot4.png file
 # Roger's 4 plots are transparent, so we make this one transparent too
+# His plots are also bigger (504x504) than the ones we have to make (480x480)
+# For that reason, there might be minor differences between his plots and ours
 png(file="plot4.png", bg="transparent")
 par(mfrow = c(2, 2))
 with(twodays,{
