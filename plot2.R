@@ -24,6 +24,8 @@ twodays$Date <- as.Date(as.character(twodays$Date),"%d/%m/%Y")
 
 # Creates a line plot of Global Active Power as function of time in the plot2.png file
 # Roger's 4 plots are transparent, so we make this one transparent too
+# His plots are also bigger (504x504) than the ones we have to make (480x480)
+# For that reason, there might be minor differences between his plots and ours
 png(file="plot2.png", bg="transparent")
 with(twodays,plot(Time,Global_active_power,type="l", xlab="", ylab="Global Active Power (kilowatts)"))
 dev.off()
